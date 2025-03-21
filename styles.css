@@ -1,0 +1,97 @@
+/* Gaya umum untuk halaman */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Gaya untuk navbar */
+.navbar {
+    padding: 1rem;
+}
+
+/* Gaya untuk kartu produk */
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    border: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Gaya untuk bagian filter */
+.filter-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk item produk */
+.produk-item {
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk tombol baca selengkapnya */
+.toggle-deskripsi {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.toggle-deskripsi:hover {
+    text-decoration: underline;
+}
+
+/* Gaya untuk deskripsi */
+.short-deskripsi {
+    margin-bottom: 10px;
+}
+
+.full-deskripsi {
+    margin-bottom: 10px;
+    display: none; /* Disembunyikan secara default */
+}
+
+/* Gaya untuk tombol */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Gaya untuk footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+/* Gaya untuk banner */
+.banner {
+    position: relative;
+}
+
+.banner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
